@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+.pagina {
+    background: #000;
+    width: 100%;
+    max-width: 1000px;
+    font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+}
+.logo {
+    width: 40%;
+    max-width: 400px;
+}
+.pokemons {
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 6%;
+}
+.cartaPokemon {
+    background: #292b2c;
+    width: 230px;
+    height: 390px;
+    padding-top: 2%;
+    margin: 3% 3% 0% 3%;
+    border-radius: 10px;
+    float: left;
+    align-content: center;
+}
+.marco {
+    width: 190px;
+    height: 190px;
+    background: #fff;
+    border-radius: 100%;
+    border: 5px solid #595c5f;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.foto {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.nombre {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.boton .verMas {
+    background: rgb(206, 163, 83);
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    top: 45px;
+    left: 75px;
+    padding-top: 10px;
+}
+.verMas {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+nav {
+    align-items: center;
+    margin: 10%;
+    padding-top: 0%;
+    padding-bottom: 15%;
+}
+.desplazar {
+    margin: 100px auto 100px auto;
+    list-style: none;
+    display: block;
+    float: left;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+.desplazar li {
+    display: inline-block;
+}
+.desplazar li .anterior, .desplazar li .siguiente {
+    font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 50px;
+}
+footer {
+    clear: both;
+    width: 100%;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 8%;
+    background: rgb(206, 163, 83);
+    color: #000;
+    font-size: 12px;
+}
+footer .demo {
+    text-align: left;
+}
